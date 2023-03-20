@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:black;
+    color: white;
+}
+.navbar-brand{
+  color: white;
+  
+}
+.navbar-brand:hover{
+    /* rgb(27,175,99) */
+    color: rgb(236, 83, 83);
+    cursor: pointer;
+}
+/* navigation styling */
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: rgb(34,179,105);
+}
+#navLogBtn a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+#navLogBtn button{
+    color: red;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    padding: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* ======================================== MAIN section ================== */
+.main{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: -10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+    url("../images/pos.jpg");
+
+}
+.loginSection{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: -10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url("../images/slid.jpg");
+
+}
+/* text container */
+.text-container p:nth-child(1){
+    margin-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ff5e00;
+}
+
+.text-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+}
+.text-container .desc{
+    margin-top: 14px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family:Poppins;
+    text-align: start;
+}
+.text-container{
+    max-width:500px;
+   
+    background-color: rgba(0, 0, 0, 0.8);
+    /* margin: 13% 0 0 0%; */
+    margin-left:10rem;
+    padding: 7px 30px ;
+    box-shadow: 1px 2px 7px 1px white;
+}
+
+.text-container .join{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 5px 25px;
+
+}
+/* .text-container .login{
+    width: 69px;
+    height: 25px;
+    text-align: center;
+    font-size: 10px;
+    margin: 15px 0;
+    cursor: pointer; 
+    margin-left: 11%;
+    border-top-right-radius: 5px;
+    background-color: rgb(0, 4, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+   
+} */
+.text-container a button:hover{
+    color: rgb(255, 145, 0);
+    background-color: rgb(0, 0, 0);
+    /* font-weight: 500; */
+    transition: 0.3s;
+}
+/* ======================================== MAIN section end ================================= */
+
+/* ======================================== our service section ================================= */
+#service{
+    background-color: rgb(234, 234, 234);
+   
+}
+.card-text{
+    font-size: 12px;
+
+}
+#service .card{
+    height: 400px;
+}
+
+#service .card-btn button{
+     border: none;
+     outline: none;
+     font-size: 10px;
+     width: 80px;
+     background-color: black;
+     color: goldenrod;
+     border: 1px solid rgb(0, 0, 0);
+     border-radius: 5px;
+     padding: 5px;
+     cursor: pointer;
+}
+#service .card-btn button a{
+    text-decoration: none;
+    color: goldenrod;
+}
+/* #our_services button:hover{
+    background-color: rgb(226, 0, 0);
+    color: rgb(235, 235, 235);
+    transition: 0.3s;
+} */
+
+/* ================== about section ======================= */
+#about-us .container{
+    margin-top: 50px;
+}
+#about-us .about_image{
+    padding-left: 90px;
+}
+#about-us .padd{
+    margin-top: 30px;
+    padding-right: 90px;
+}
+#about-us .padd .title{
+    font-size: 18px;
+    color: #ff5e00;
+}
+#about-us .padd .section-title{
+    font-size: 20px;
+}
+#about-us .padd .section-details{
+    font-size: 15px;
+    margin-top: -2%;
+    padding-left: 3px;
+}
+#about-us .padd .btn{
+    color:white;
+    background-color: rgb(11, 158, 11);
+    font-size: 10px;
+    padding: 7px;
+}
+/* plan section */
+#planSection .container .sub-details{
+     padding: 8px 10px;
+}
+#planSection .container .sub-details li{
+    list-style: none;
+    padding-left: 3px;
+    margin-left: 5px;
+}
+#planSection .container .sub-details li i{
+    padding: 0 3px;
+    /* color: rgb(220,53,69); */
+    color: rgb(32, 7, 255);
+    
+}
+
+/* ============================== contact us form ========================= */
+#contactUs{
+    background-color: rgb(234,234,234);
+    /* height: 750px; */
+    margin: 90px 0;
+    margin: 30px;
+}
+#contactUs .contactForm h6{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: red;
+    
+}
+#contactUs .contactForm h6:hover{
+    color: blue;
+}
+#contactUs .row .contactForm{
+    margin-top: 70px;
+}
+#contactUs .headContact h5{
+    font-size: 30px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+/* footer section */
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(57, 195, 12);
+    font-size: 17px;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.footer-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-body span{
+    color: red;
+}

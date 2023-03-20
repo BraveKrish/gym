@@ -1,0 +1,100 @@
+<p>plus icon</p>
+<i class="fa-solid fa-plus"></i>
+<i class="fa-solid fa-user-pen"></i>
+<p>manage packag icon</p>
+<i class="fa-solid fa-box-archive"></i>
+<p>edit icon</p>
+<i class="fa-solid fa-pen-to-square"></i>
+<p>align icon</p>
+<i class="fa-solid fa-align-justify"></i>
+<p>user</p>
+<i class="fa-solid fa-user"></i>
+<p>email icon</p>
+<i class="fa-solid fa-envelope"></i>
+<p>phone</p>
+<i class="fa-solid fa-phone"></i>
+
+
+<div class="form-row">
+    <div class="form-group col-md-7">
+        <label class="font-weight-bold" >Member ID</label>
+        <input type="text" name="memberid" class="form-control col-4">
+    </div>
+    <div class="form-group col-md-6">
+        <label class="font-weight-bold" >First Name</label>
+        <input type="text" name="fname" class="form-control">
+    </div>
+    <div class="form-group col-md-6">
+        <label class="font-weight-bold" >Last Name</label>
+        <input type="text" name="lname" class="form-control">
+    </div>
+    <div class="form-group col-md-6">
+        <label class="font-weight-bold" >Email</label>
+        <input type="text"  name="email" class="form-control">
+    </div>
+    <div class="form-group col-md-6">
+        <label class="font-weight-bold" >Contact</label>
+        <input type="text"  name="contact" class="form-control">
+    </div>
+</div>
+<div class="form-group">
+    <label class="font-weight-bold" >Address</label>
+    <input type="text" name="address" class="form-control" placeholder="Enter address">
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+        <label class="font-weight-bold" >Trainer</label>
+        <select class="form-control" name="trainer">
+            <option selected>Choose Trainer</option>
+            <option value="Love">Love</option>
+            <option value="Krishna">Krishna</option>
+        </select>
+    </div>
+    <div class="form-group col-md-4">
+        <label class="font-weight-bold" >Package</label>
+        <select class="form-control" name="package">
+            <option selected>Choose Package</option>
+            <option value="Gold">Gold</option>
+            <option value="Premium">Premium</option>
+        </select>
+    </div>
+    <div class="form-group col-md-4">
+        <label class="font-weight-bold" >Plan</label>
+        <select class="form-control" name="plan">
+            <option selected>Choose Plan</option>
+            <option value="6">6</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    <!-- radio button -->
+  <fieldset class="form-group row col-6">
+    <legend class="col-form-label col-sm-2 float-sm-left pt-0 p-1 ml-3 font-weight-bold">Gender</legend>
+    <div class="col-sm-10">
+    <div class="form-check">
+        <input class="form-check-input ml-3" type="radio" name="gender" value="Male" checked>
+        <label class="form-check-label ml-5">
+        Male
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input ml-3" type="radio" name="gender" value="Female">
+        <label class="form-check-label ml-5">
+        Female
+        </label>
+    </div>
+
+  </fieldset>
+  <!-- radio button end  -->
+   <div class="form-group col-6">
+    <label class="font-weight-bold" >Choose file</label>
+    <input type="file" name="file" class="form-control-file">
+</div>
+</div>
+<!-- modal body end -->
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+<button type="submit" name="mem_update" class="btn btn-success">Update</button>
+<!-- <input type="submit" name="submit" class="btn btn-primary" value="Save"> -->
+</div>
